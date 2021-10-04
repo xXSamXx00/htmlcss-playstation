@@ -6,6 +6,7 @@ body {
 :root {
     --bg_btn_dark: #363636;
     --bg_btn_orange: #CD3D0F;
+    --bg_btn_blue: #2D64E6;
 }
 
 /* utility rules */
@@ -16,6 +17,10 @@ body {
 
 .pb_150 {
     padding-bottom: 150px;
+}
+
+.mb_70 {
+    margin-bottom: 70px;
 }
 
 /***************** 
@@ -56,7 +61,6 @@ MAIN
     color: white;
 }
 
-
 .hero_text h1 {
     margin: 20px 0;
 }
@@ -69,6 +73,10 @@ MAIN
     margin: 20px 0 50px;
     color: white;
     background-color: var(--bg_btn_orange);
+}
+
+.hero_text p {
+    width: 88%;
 }
 
 /* row hero image */
@@ -90,6 +98,46 @@ MAIN
     border: 2px solid #0070D1;
 }
 
+/* playstation five */
+.play_text h4 {
+    text-transform: uppercase;
+    color: #0070D1;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.playstation_five p {
+    color: gray;
+}
+
+.console_playstation {
+    padding: 0 15px;
+}
+
+.console_playstation a {
+    background-color: var(--bg_btn_blue);
+    color: white;
+}
+
+.console_playstation img {
+    width: 100%;
+}
+
+.bor_b {
+    border-bottom: 2px solid #0070D1;
+}
+
+.opacity {
+    filter: opacity(0.7);
+}
+
 /***************** 
 FOOTER 
 ******************/
+
+
+@media screen and (min-width: 768px) {
+    .console_playstation .row .col-md-6:first-child {
+        align-self: center;
+    }
+}
