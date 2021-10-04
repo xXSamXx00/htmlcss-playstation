@@ -1,7 +1,22 @@
+/* common rules */
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --bg_btn_dark: #363636;
+    --bg_btn_orange: #CD3D0F;
+}
+
+/* utility rules */
+.bg_btn_dark {
+    background-color: var(--bg_btn_dark);
+    color: white;
+}
+
+/***************** 
+HEADER 
+******************/
 .top_nav img {
     height: 14px;
 }
@@ -21,9 +36,36 @@ body {
     height: 20px;
 }
 
+/***************** 
+MAIN 
+******************/
+/* hero image */
 .hero_image {
     background-image: url(./img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
 }
+
+.hero_text {
+    padding-top: 170px;
+    color: white;
+}
+
+
+.hero_text h1 {
+    margin: 20px 0;
+}
+
+.hero_text img {
+    width: 300px;
+}
+
+.hero_text a {
+    margin: 20px 0 50px;
+    color: white;
+    background-color: var(--bg_btn_orange);
+}
+/***************** 
+FOOTER 
+******************/
