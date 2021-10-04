@@ -7,6 +7,11 @@ body {
     --bg_btn_dark: #363636;
     --bg_btn_orange: #CD3D0F;
     --bg_btn_blue: #2D64E6;
+    --bg_new_releases: #1F1F1F;
+}
+
+h1 {
+    font-size: 34px;
 }
 
 /* utility rules */
@@ -146,6 +151,29 @@ MAIN
     background-size: cover;
 }
 
+/* new releases */
+.new_releases {
+    background-color: var(--bg_new_releases);
+    color: white;
+    padding: 25px 10px 50px;
+}
+
+.new_releases h2 {
+    font-size: 30px;
+}
+
+.new_releases > p {
+    font-size: 24px;
+}
+
+.new_releases img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.p_col_release {
+    padding: 0 12px 30px;
+}
 
 /***************** 
 FOOTER 
