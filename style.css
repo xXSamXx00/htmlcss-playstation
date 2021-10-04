@@ -259,19 +259,33 @@ MAIN
     color: black;
 }
 
+/* social */
+.social img {
+    width: 100%;
+}
 
 /***************** 
 FOOTER 
 ******************/
-
-
 @media screen and (min-width: 768px) {
     .console_playstation .row .col-md-6:first-child {
         align-self: center;
     }
-
+    
     .playstation_plus .img,
     .playstation_now .img {
         display: block;
+    }
+    
+    .social .row {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .social .row {
+        width: 50%;
+        margin: auto;
     }
 }
