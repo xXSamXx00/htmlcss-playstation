@@ -14,6 +14,10 @@ h1 {
     font-size: 34px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 /* utility rules */
 .bg_btn_dark {
     background-color: var(--bg_btn_dark);
@@ -118,7 +122,8 @@ MAIN
     font-weight: 600;
 }
 
-.playstation_five p {
+.playstation_five p,
+.explore_ps_four p {
     color: gray;
 }
 
@@ -126,7 +131,8 @@ MAIN
     padding: 0 15px;
 }
 
-.console_playstation a {
+.console_playstation a,
+.card a {
     background-color: var(--bg_btn_blue);
     color: white;
 }
@@ -158,10 +164,6 @@ MAIN
     padding: 25px 10px 50px;
 }
 
-.new_releases h2 {
-    font-size: 30px;
-}
-
 .new_releases > p {
     font-size: 24px;
 }
@@ -173,6 +175,20 @@ MAIN
 
 .p_col_release {
     padding: 0 12px 30px;
+}
+
+/* explore ps four */
+.explore_ps_four {
+    padding: 80px 0;
+}
+
+.reg {
+    font-size: 16px;
+    vertical-align: super;
+}
+
+.card {
+    border: 0;
 }
 
 /***************** 
