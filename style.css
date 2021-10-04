@@ -8,6 +8,8 @@ body {
     --bg_btn_orange: #CD3D0F;
     --bg_btn_blue: #2D64E6;
     --bg_new_releases: #1F1F1F;
+    --bg_btn_plus: #D9DADC;
+    --bg_playstation_plus: #BEBCBB;
 }
 
 h1 {
@@ -191,6 +193,30 @@ MAIN
     border: 0;
 }
 
+/* playstation plus */
+.playstation_plus {
+    background-color: var(--bg_playstation_plus);
+}
+
+.playstation_plus p {
+    color: black;
+    margin-top: 25px;
+}
+
+.playstation_plus a {
+    background-color: var(--bg_btn_plus);
+    color: var(--bg_btn_blue);
+}
+
+.playstation_plus .img {
+    display: none;
+}
+
+.img img{
+    height: 100%;
+    width: 100%;
+}
+
 /***************** 
 FOOTER 
 ******************/
@@ -199,5 +225,9 @@ FOOTER
 @media screen and (min-width: 768px) {
     .console_playstation .row .col-md-6:first-child {
         align-self: center;
+    }
+
+    .playstation_plus .img {
+        display: block;
     }
 }
