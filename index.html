@@ -10,53 +10,80 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container-fluid">
-            <div class="bg-dark">
-                <a href="#">
-                    <img src="./img/sony_logo.svg" alt="Logo Sony">
-                </a>
-            </div>
-            <a class="navbar-brand" href="#">
-                <img src="./img/play_logo.svg" alt="Logo Playstation">
-            </a>
-            <button class="navbar-toggler" type="button">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end">
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Giochi <i class="fas fa-angle-down"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Hardware <i class="fas fa-angle-down"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Servizi <i class="fas fa-angle-down"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Novit&agrave; <i class="fas fa-angle-down"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Fai acquisti <i class="fas fa-angle-down"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Supporto <i class="fas fa-angle-down"></i></a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+    <!-- site header -->
+    <header class="sticky-top">
+        <div class="top_nav bg-dark text-end p-1">
+            <img src="./img/sony_logo.svg" alt="Logo Sony">
+        </div>
+        <!-- /.top_nav -->
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/play_logo.svg" alt="Logo Platstation">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Giochi <i class="fas fa-angle-down"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Hardware <i class="fas fa-angle-down"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Servizi <i class="fas fa-angle-down"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Novit&agrave; <i class="fas fa-angle-down"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Fai acquisti <i class="fas fa-angle-down"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Supporto <i class="fas fa-angle-down"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" href="#">My PlayStation <i class="fas fa-angle-down"></i></a>
                             </li>
+                            <li class="nav-item">
+                                <a class="btn btn-dark rounded-pill" href="#">Accedi</a>
+                                <a href="#">
+                                    <img src="./img/lens.svg" alt="Cerca">
+                                </a>
+                            </li>
                         </ul>
-                        <a href="#" class="button">Accedi</a>
-                        <a href="#"><i class="fas fa-search"></i></a>
-                    </form>
+                    </div>
                 </div>
+            </nav>
+        </div>
+        <!-- /.main_menu -->
+    </header>
+    <!-- /site header -->
+
+    <!-- site main -->
+    <main>
+        <div class="hero_image">
+            <div class="hero_text ps-4">
+                <img src="./img/returnal-hero-banner-logo.png" alt>
+                <h1>Rompi il cerchio</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, voluptatibus nam eius vitae quo labore similique consectetur tempore ex minima assumenda molestias magni distinctio illo praesentium incidunt. Iure, magnam ducimus.
+                </p>
+                <a href="#" class="btn btn-danger rounded-pill">Acquista ora</a>
             </div>
         </div>
-    </nav>
+        <!-- /.hero_image -->
+    </main>
+    <!-- /site main -->
+
+    <!-- site footer -->
+    <footer>
+
+    </footer>
+    <!-- /site footer -->
 </body>
 </html>
