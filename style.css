@@ -10,6 +10,8 @@ body {
     --bg_new_releases: #1F1F1F;
     --bg_btn_plus: #D9DADC;
     --bg_playstation_plus: #BEBCBB;
+    --bg_playstation_now: #161C3B;
+    --bg_btn_now: #F5F5F5;
 }
 
 h1 {
@@ -209,7 +211,8 @@ MAIN
     color: var(--bg_btn_blue);
 }
 
-.playstation_plus .img {
+.playstation_plus img,
+.playstation_now .img {
     display: none;
 }
 
@@ -242,6 +245,21 @@ MAIN
     padding: 50px 10px 0;
 }
 
+/* playstation now */
+.playstation_now {
+    background-color: var(--bg_playstation_now);
+}
+
+.playstation_now p {
+    margin: 36px 0 20px;
+}
+
+.playstation_now a {
+    background-color: var(--bg_btn_now);
+    color: black;
+}
+
+
 /***************** 
 FOOTER 
 ******************/
@@ -252,7 +270,8 @@ FOOTER
         align-self: center;
     }
 
-    .playstation_plus .img {
+    .playstation_plus .img,
+    .playstation_now .img {
         display: block;
     }
 }
