@@ -23,6 +23,14 @@ body {
     margin-bottom: 70px;
 }
 
+.pt_230 {
+    padding-top: 230px;
+}
+
+.pt_55 {
+    padding-top: 55px;
+}
+
 /***************** 
 HEADER 
 ******************/
@@ -57,7 +65,6 @@ MAIN
 }
 
 .hero_text {
-    padding-top: 170px;
     color: white;
 }
 
@@ -130,6 +137,15 @@ MAIN
 .opacity {
     filter: opacity(0.7);
 }
+
+/* it takes two */
+.it_takes_two {
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
 
 /***************** 
 FOOTER 
