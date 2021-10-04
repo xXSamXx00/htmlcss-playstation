@@ -26,6 +26,14 @@ h2 {
     color: white;
 }
 
+.g_0 {
+    --bs-gutter-x: 0;
+}
+
+.p_col {
+    padding: 30px 20px 0;
+}
+
 .pb_150 {
     padding-bottom: 150px;
 }
@@ -98,18 +106,10 @@ MAIN
 }
 
 /* row hero image */
-.g_0 {
-    --bs-gutter-x: 0;
-}
-
 .row_hero_image img {
     width: 100%;
     border-radius: 20px;
     padding: 2px;
-}
-
-.p_col {
-    padding: 30px 20px 0;
 }
 
 .border_img {
@@ -125,7 +125,8 @@ MAIN
 }
 
 .playstation_five p,
-.explore_ps_four p {
+.explore_ps_four p,
+.sales p {
     color: gray;
 }
 
@@ -215,6 +216,30 @@ MAIN
 .img img{
     height: 100%;
     width: 100%;
+}
+
+/* sales */
+.sales {
+    padding: 80px 0;
+}
+
+.sales h1 {
+    width: 50%;
+    margin: auto;
+}
+
+.sales p {
+    margin-bottom: 0;
+    margin-top: 30px;
+    padding: 0 15px;
+}
+
+.sales img {
+    width: 100%;
+}
+
+.p_col_sales {
+    padding: 50px 10px 0;
 }
 
 /***************** 
