@@ -12,6 +12,7 @@ body {
     --bg_playstation_plus: #BEBCBB;
     --bg_playstation_now: #161C3B;
     --bg_btn_now: #F5F5F5;
+    --bg_footer: #00439C;
 }
 
 h1 {
@@ -65,9 +66,9 @@ HEADER
     margin-right: 10px;
 }
 
-.nav-item i {
-    color: lightgray;
-    font-size: 10px;
+.nav-link img {
+    width: 10px;
+    margin-left: 5px;
 }
 
 .nav-item img {
@@ -133,7 +134,7 @@ MAIN
 }
 
 .console_playstation {
-    padding: 0 15px;
+    padding: 0 70px 60px;
 }
 
 .console_playstation a,
@@ -211,7 +212,7 @@ MAIN
     color: var(--bg_btn_blue);
 }
 
-.playstation_plus img,
+.playstation_plus .img,
 .playstation_now .img {
     display: none;
 }
@@ -267,6 +268,46 @@ MAIN
 /***************** 
 FOOTER 
 ******************/
+footer {
+    background-color: var(--bg_footer);
+    color: white;
+    padding: 0 10px 100px;
+}
+
+footer .row .col-12:first-child > img {
+    width: 20%;
+    margin: 80px 10px 0;
+}
+
+.language img {
+    width: 3%;
+    margin-right: 10px;
+}
+
+.link_footer {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-left: 30px;
+}
+
+.link_footer:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.copyright img {
+    width: 30%;
+    margin: 50px 0 10px;
+}
+
+.copyright a {
+    color: white;
+}
+
+/***************** 
+MEDIA QUERY 
+******************/
 @media screen and (min-width: 768px) {
     .console_playstation .row .col-md-6:first-child {
         align-self: center;
@@ -287,5 +328,19 @@ FOOTER
     .social .row {
         width: 50%;
         margin: auto;
+    }
+
+    .copyright p {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    footer .row .col-12:first-child > img {
+        width: 15%;
+    }
+    
+    .copyright img {
+        width: 20%;
     }
 }
